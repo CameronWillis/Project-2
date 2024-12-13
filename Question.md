@@ -7,8 +7,9 @@ How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
 How a teams pass attempts effects amount of fumbles?
 
 *Which team had the most overall wins?
-                                        These two together once answered can help determine the                                            validity of a defense.
 *Which team had the most points scored?
+                                        These two together once answered can help determine the                                            validity of a defense.
+
 
 the 5 best records over the time period (inculding the yards/play)?
 
