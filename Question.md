@@ -1,4 +1,17 @@
 Questions:
 
 Which team has improved the most since their first appearance?
+
 How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
+
+[questions about penalties]
+
+[questions about opp penalties]
+
+[questions about fumbles]
+
+[questions about total wins / loss]
+
+[questions about win/loss ratio (maybe jaguars)]
+
+[questions about wins/points, strong offense]
