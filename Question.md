@@ -1,10 +1,13 @@
 Questions:
 
-Which team has improved the most since their first appearance?
+[complete] Which team has improved the most since their first appearance?
 
-How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
+[complete] How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
 
-How a teams pass attempts effects amount of fumbles?
+[complete] How a teams pass attempts effects amount of fumbles?
+
+[complete] Which teams had the strongest Offense as measured by fumble percentage?
+
 
 *Which team had the most overall wins?
 *Which team had the most points scored?
