@@ -4,13 +4,19 @@ Which team has improved the most since their first appearance?
 
 How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
 
-[questions about penalties]
+How a teams pass attempts effects amount of fumbles?
 
-[questions about opp penalties]
+*Which team had the most overall wins?
+                                        These two together once answered can help determine the                                            validity of a defense.
+*Which team had the most points scored?
 
-[questions about fumbles]
+the 5 best records over the time period (inculding the yards/play)?
 
-[questions about total wins / loss]
+Single worst record in a season(including opp yards/play)?
+
+Single most rushing touchdowns in a season?
+
+Best touchdown to interception ratio in a season?
 
 [questions about win/loss ratio (maybe jaguars)]
 
