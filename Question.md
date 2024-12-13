@@ -6,16 +6,15 @@ Questions:
 
 [complete] How a teams pass attempts effects amount of fumbles?
 
-[complete] Which teams had the strongest Offense as measured by fumble percentage?
+[complete] Which teams had the strongest / weakest offense as measured by fumble percentage?
 
 [complete] the 5 best records over the time period (inculding the yards/play)?
+
+[complete] Which teams had the strongest / weakest defense as measured by opp PF?
 
 *Which team had the most overall wins?
 *Which team had the most points scored?
                                         These two together once answered can help determine the                                            validity of a defense.
-
-
-
 
 Single worst record in a season(including opp yards/play)?
 
