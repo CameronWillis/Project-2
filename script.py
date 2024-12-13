@@ -122,26 +122,26 @@ if True:
 	
 # Question 6
 if True:
-	teams_ratio_fumble = {}
+	teams_avg_opp_points = {}
 	for team in set(df['team']):	
 		team_df = df[df['team'] == team]
-		fumbles = 0
-		completions = 0
+		given = 0
 		if len(team_df) == 2020 - 1999:
 			
 			for year in range(2015, 2020):
-				fumbles += int(team_df[ team_df["year"] == str(year)].iloc[0]["Fumbles Lost"])
-				completions += int(team_df[ team_df["year"] == str(year)].iloc[0]["completions"])
+				given += int(team_df[ team_df["year"] == str(year)].iloc[0]["opp PF"])
 
-			teams_ratio_fumble[team] = fumbles / (completions + fumbles) 
+			teams_avg_opp_points[team] = given / 5
 
-	teams_ratio_fumble = dict(sorted(teams_ratio_fumble.items(), key=lambda item: item[1]))
+	teams_avg_opp_points = dict(sorted(teams_avg_opp_points.items(), key=lambda item: item[1]))
 	
-	print("Strongest defense measured by opposition yd/play")
+	print("\n\nWhich defenses were the strongest between 2015-2019?")
+	print("\nStrongest defense measured by opposition points given")
 	for i in range(3):
-		print(list(teams_ratio_fumble.keys())[i] + " has a fumble ratio of " + str(round(list(teams_ratio_fumble.values())[i], 4)) )
+		print(list(teams_avg_opp_points.keys())[i] + " gave an average of " + str(round(list(teams_avg_opp_points.values())[i], 4)) + " points" )
 	
-	print("Weakest offensive line measured by fumbles ratio")
+	print("\nWeakest defense measured by opposition points given")
 	for i in range(3):
-		print(list(teams_ratio_fumble.keys())[-i-1] + " has a fumble ratio of " + str(round(list(teams_ratio_fumble.values())[-i-1], 4)) )
-	
+		print(list(teams_avg_opp_points.keys())[-i-1] + " gave an average of " + str(round(list(teams_avg_opp_points.values())[-i-1], 4)) + " points")
+
+
