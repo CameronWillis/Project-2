@@ -1,6 +1,7 @@
 Questions:
 
 [complete] Which team has improved the most since their first appearance?
+
 We took the teams average wins during the 1999-2003 timeframe and compared that to their wins from 2015-2019. The goal was the find which teams were most improved over the time period. The New England Patriots came out as the most improved team, with a lot of validity behind this. The margian they improved by was exactly 3 games per season. This helped the team reach the playoffs every season and win an outstanding 3 Super Bowls during the period from 2015-2019. The 1999-2003 period was the beginning of the Tom Brady dynasty being built, and the data reflects the success overtime during the 2015-2019 period. This teams defense during that period allowed for 282.2 total season points. On the otherhand, The Tampa Bay Buccaneers experienced a falling off from the start of the decade, being super bowl champions and having a well established offense and there outstanding defense including Derrick Brooks, Simeon Rice, and Warren Sapp. Tampa bay later struggled with their defense heavily allowing opposing teams to rack up a total of 415.8 points against them. 
 
 [complete] How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
