@@ -6,6 +6,8 @@ We took the teams average wins during the 1999-2003 timeframe and compared that 
 
 [complete] How did a team (maybe Kansas City Chiefs, 2013) stats change with a new coach?
 
+During the time period from 2006-2013: the Kansas City Chiefs won an average 5.43 games, which is a losing record per year on average. After the coaching change to Andy Reid, the Chiefs won an average of 11 games per season which is a winning record per season. Overall, with Andy Reid being introduced they experienced an increase of 5.57 more games won per season. 
+
 [complete] How a teams pass attempts effects amount of fumbles?
 
 [complete] Which teams had the strongest / weakest offense as measured by fumble percentage?
