@@ -14,6 +14,9 @@ We took the teams average wins during the 1999-2003 timeframe and compared that 
 
 [complete] Which teams had the strongest / weakest defense as measured by opp PF?
 
+[complete] Which teams season had the strongest td/int?
+
+
 *Which team had the most overall wins?
 *Which team had the most points scored?
                                         These two together once answered can help determine the                                            validity of a defense.
