@@ -58,6 +58,7 @@ A team's touchdown per interception is a strong indicator used to determine the 
 Presentation of Insights:
 Overall the data we collected show that fans' perceptions on many of these claims are based in reality and showed that teams are often correctly analysed by fans even those not conducting data analysis. We ran into some interesting discoveries along the way though, like disproving the idea that defenses are getting stronger or that any one team is getting special treatment on penalty calls. We assume most fans constructed these data points in the spur of the moment and are less likely to follow long term trends during these calls. We found different teams dominating and improving and other teams struggling and declining aligned well with the general fans' understanding of them. Overall, most of the claims made by fans seem to be fairly correct and can be supported by the data.
 
-
+for more documentation and information:
+https://docs.google.com/document/d/1T0NSXoS1zV9aZKrypOeM8Vb7Fi7K0z6sEoQySRu7WEQ/edit?usp=sharing
 
 
