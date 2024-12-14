@@ -5,10 +5,9 @@ df = pd.read_csv('AmericanFootball98.csv')
 
 df['team'] = df['team_code'].str.slice(0, 3) 
 df['year'] = df['team_code'].str.slice(3) 
-del df['team_code']
 
 # Question 1
-if False:
+if True:
 	teams_delta_wins = {}
 	for team in set(df['team']):	
 		team_df = df[df['team'] == team]
@@ -32,7 +31,7 @@ if False:
 	print(list(teams_delta_wins.keys())[0]  + " changed " + str(list(teams_delta_wins.values())[0]))
 
 # Question 2
-if False:
+if True:
 	early_total = 0
 	late_total  = 0
 
@@ -48,7 +47,7 @@ if False:
 	print("Change in avg wins after new coach: " + str((late_total - early_total) / 7))
 	   
 # Question 3
-if False:
+if True:
 	teams_delta_pen = {}
 	for team in set(df['team']):	
 		team_df = df[df['team'] == team]
@@ -66,7 +65,7 @@ if False:
 		print(list(teams_delta_pen.keys())[-i-1] + " get given an average of " + str(int(list(teams_delta_pen.values())[-i-1])) + " penalties")
 	
 # Question 4
-if False:
+if True:
 	teams_ratio_fumble = {}
 	for team in set(df['team']):	
 		team_df = df[df['team'] == team]
@@ -144,4 +143,21 @@ if True:
 	for i in range(3):
 		print(list(teams_avg_opp_points.keys())[-i-1] + " gave an average of " + str(round(list(teams_avg_opp_points.values())[-i-1], 4)) + " points")
 
+# Question 7
+if True:
+	teams_year_int_ratio = []
+	for code in df['team_code']:	
 
+		row = df[code == df["team_code"]].iloc[0]
+		value = row["pass td"] / row["int"]
+		teams_year_int_ratio.append((value, row["team"], row["year"]))
+
+	print(teams_year_int_ratio)
+	teams_year_int_ratio = sorted(teams_year_int_ratio, key=lambda x: -x[0])
+	print(teams_year_int_ratio)
+
+
+	print("\n\nWhich team and year had the best td/int ratio?")
+	for i in range(5):
+		print(teams_year_int_ratio[i][1] + " in " + teams_year_int_ratio[i][2] + " had a td/int ratio of " + str(round(teams_year_int_ratio[i][0], 4)))
+	
